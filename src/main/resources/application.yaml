@@ -26,7 +26,8 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   session:
-    store-type: jdbc
+    store-type: hazelcast
+    hazelcast:
     jdbc:
       initialize-schema: always
 
