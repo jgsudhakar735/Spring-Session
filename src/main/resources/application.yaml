@@ -10,8 +10,8 @@ server:
 spring:
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    username: MX_AUDIT
-    password: MX_AUDIT
+    username: SPRINGSESSION
+    password: SPRINGSESSION
     url: jdbc:oracle:thin:@localhost:1521:xe
     initialization-mode: always
   jpa:
